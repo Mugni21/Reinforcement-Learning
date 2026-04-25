@@ -15,8 +15,13 @@ Binary image classification using CNNs to distinguish between **Level 1** and **
 ### 1. Clone or download this repo
 
 ### 2. Add the dataset
-Place your images inside the `data/` folder following this structure:
 
+Download the dataset from Google Drive:
+
+📁 **[Download SuperMarioBros Dataset](https://drive.google.com/drive/folders/1aeO00PO_waH5QI8PLEW2JH2kz-OMDwQD?usp=sharing)**
+
+Once downloaded, place the images inside the `data/` folder following this structure:
+```
 data/
 ├── TrainImages/
 │   ├── TrainLvl1/
@@ -25,8 +30,9 @@ data/
 │   ├── ValidationLvl1/
 │   └── ValidationLvl8/
 └── TestImages/
-├── TestLvl1/
-└── TestLvl8/
+    ├── TestLvl1/
+    └── TestLvl8/
+```
 
 ### 3. Install dependencies
 ```bash
