@@ -1,0 +1,18 @@
+# Dataset — images are never committed
+data/*
+!data/README.md
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model weights
+*.h5
+*.keras
